@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.MCHyperion" name="Multimedia Case LED Configuration" version="1.0.0" provider-name="Joy-it">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en_GB">Multimedia Case LED Configuration</summary>
+		<summary lang="de_DE">Multimedia Case LED Konfiguration</summary>
+		<description lang="en_GB">This script changes your LED configuration with the program Hyperion at your Multimedia Case.</description>
+		<description lang="de_DE">Dieses Skript konfiguriert Ihre LEDs vom Multimedia Case mit Hilfe des Programms Hyperion.</description>
+		<license>GNU General Public License, v2</license>
+		<language>en de</language>
+		<forum></forum>
+		<source></source>
+		<website>Joy-it.net</website>
+		<email>service@joy-it.de</email>
+		<assets>
+			<icon>resources/images/icon.png</icon>
+			<fanart>resources/images/fanart.jpg</fanart>
+			<screenshot>resources/images/screenshot001.png</screenshot>
+			<screenshot>resources/images/screenshot002.png</screenshot>
+			<screenshot>resources/images/screenshot003.png</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>

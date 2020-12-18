@@ -1,0 +1,4 @@
+irmp.c:2719:1:irmp_store_bit	20	static
+irmp.c:2335:1:irmp_init	0	static
+irmp.c:2416:1:irmp_get_data	20	static
+irmp.c:2989:1:irmp_ISR	32	static

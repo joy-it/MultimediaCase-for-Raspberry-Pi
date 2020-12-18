@@ -1,0 +1,180 @@
+# Kodi Media Center language file
+# Addon Name: IR-Control Configuration
+# Addon id: script.remote.config
+# Addon Provider: Joy-it
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: service@joy-it.de\n"
+"POT-Creation-Date: 2020-09-10 \n"
+"Last-Translator: Joy-it\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "#32001"
+msgid "Do your want to configure a new remote control?"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Ok"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Delete old configuration"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Press any button on your remote control several times"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Add Key"
+msgstr ""
+
+msgctxt "#32006"
+msgid "Press any Button on your IR-Remote several times"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Configure Button OK"
+msgstr ""
+
+msgctxt "#32008"
+msgid "Skip this Key"
+msgstr ""
+
+msgctxt "#32009"
+msgid "Skip all"
+msgstr ""
+
+msgctxt "#32010"
+msgid "-------------------------------------------------------------------------------------------------------"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Press button OK on your remote control several times"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Press Button: OK on your IR-Remote several times"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Configure Button EXIT"
+msgstr ""
+
+msgctxt "#32014"
+msgid "Press button EXIT on your remote control several times"
+msgstr ""
+
+msgctxt "#32015"
+msgid "Press Button: EXIT on your IR-Remote several times"
+msgstr ""
+
+msgctxt "#32016"
+msgid "Configure Button LEFT"
+msgstr ""
+
+msgctxt "#32017"
+msgid "Press button LEFT (<) on your remote control several times"
+msgstr ""
+
+msgctxt "#32018"
+msgid "Press Button: LEFT on your IR-Remote several times"
+msgstr ""
+
+msgctxt "#32019"
+msgid "Configure Button RIGHT"
+msgstr ""
+
+msgctxt "#32020"
+msgid "Press button RIGHT (>) on your remote control several times"
+msgstr ""
+
+msgctxt "#32021"
+msgid "Press Button: RIGHT on your IR-Remote several times"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Press Button: UP on your IR-Remote several times"
+msgstr ""
+
+msgctxt "#32023"
+msgid "Configure Button UP"
+msgstr ""
+
+msgctxt "#32024"
+msgid "Press button UP (^) on your remote control several times"
+msgstr ""
+
+msgctxt "#32025"
+msgid "Configure Button DOWN"
+msgstr ""
+
+msgctxt "#32026"
+msgid "Press button DOWN (v) on your remote control several times"
+msgstr ""
+
+msgctxt "#32027"
+msgid "Press Button: DOWN on your IR-Remote several times"
+msgstr ""
+
+msgctxt "#32028"
+msgid "Configure Button VOLUMEDOWN"
+msgstr ""
+
+msgctxt "#32029"
+msgid "Press button VOLUMEDOWN on your remote control several times"
+msgstr ""
+
+msgctxt "#32030"
+msgid "Press Button: VOLUMEDOWN on your IR-Remote several times"
+msgstr ""
+
+msgctxt "#32031"
+msgid "Configure Button VOLUMEUP"
+msgstr ""
+
+msgctxt "#32032"
+msgid "Press button VOLUMEUP on your remote control several times"
+msgstr ""
+
+msgctxt "#32033"
+msgid "Press Button: VOLUMEUP on your IR-Remote several times"
+msgstr ""
+
+msgctxt "#32034"
+msgid "Configure Button MUTE"
+msgstr ""
+
+msgctxt "#32035"
+msgid "Press button MUTE on your remote control several times"
+msgstr ""
+
+msgctxt "#32036"
+msgid "Press Button: MUTE on your IR-Remote several times"
+msgstr ""
+
+msgctxt "#32037"
+msgid "Configure Button PLAY/PAUSE"
+msgstr ""
+
+msgctxt "#32038"
+msgid "Press button PLAY/PAUSE on your remote control several times"
+msgstr ""
+
+msgctxt "#32039"
+msgid "Press Button: PLAY/PAUSE on your IR-Remote several times"
+msgstr ""
+
+msgctxt "#32040"
+msgid "Your remote has been successfully configured! Rebooting now..."
+msgstr ""
+
+msgctxt "#32041"
+msgid "Cancelled! Configuration aborted"
+msgstr ""

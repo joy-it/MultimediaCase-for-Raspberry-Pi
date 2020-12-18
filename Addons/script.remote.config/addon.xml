@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.remote.config" name="IR-Control Configuration" version="1.0.0" provider-name="Joy-it">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en_GB">IR-Control Configuration</summary>
+		<summary lang="de_DE">Konfiguration einer Infrarot-Ferbedienung </summary>
+		<description lang="en_GB">This addon configures a IR-remote-controll of your choice for the Multimedia Case.</description>
+		<description lang="de_DE"> Dieses Addon konfiguriert Ihnen eine Infrarot-Fernbedienung Ihrer Wahl für das Multimedia Case.</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<website>Joy-it.net</website>
+		<email>service@joy-it.de</email>
+		<assets>
+			<icon>resources/images/icon.png</icon>
+			<fanart>resources/images/fanart.jpg</fanart>
+			<screenshot>resources/images/screenshot001.png</screenshot>
+			<screenshot>resources/images/screenshot002.png</screenshot>
+			<screenshot>resources/images/screenshot003.png</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>

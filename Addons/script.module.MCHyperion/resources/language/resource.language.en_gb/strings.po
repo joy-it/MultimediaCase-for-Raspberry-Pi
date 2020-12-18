@@ -1,0 +1,192 @@
+# Kodi Media Center language file
+# Addon Name: Multimedia Case LED Configuration
+# Addon id: script.module.MCHyperion
+# Addon Provider: Joy-it
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: service@joy-it.de\n"
+"POT-Creation-Date: 2020-09-10 \n"
+"Last-Translator: Joy-it\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "#32001"
+msgid "Which mode do you want to select?"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Static"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Plasma"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Candle"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Rainbow Mood"
+msgstr ""
+
+msgctxt "#32006"
+msgid "Rainbow Swirl"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Breath"
+msgstr ""
+
+msgctxt "#32008"
+msgid "Police"
+msgstr ""
+
+msgctxt "#32009"
+msgid "Christmas"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Colour Traces"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Which colour do you want to select?"
+msgstr ""
+
+msgctxt "#32012"
+msgid "White"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Red"
+msgstr ""
+
+msgctxt "#32014"
+msgid "Yellow"
+msgstr ""
+
+msgctxt "#32015"
+msgid "Pink"
+msgstr ""
+
+msgctxt "#32016"
+msgid "Orange"
+msgstr ""
+
+msgctxt "#32017"
+msgid "Blue"
+msgstr ""
+
+msgctxt "#32018"
+msgid "Green"
+msgstr ""
+
+msgctxt "#32019"
+msgid "Purple"
+msgstr ""
+
+msgctxt "#32020"
+msgid "Turquoise"
+msgstr ""
+
+msgctxt "#32021"
+msgid "Lavender"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Cyan"
+msgstr ""
+
+msgctxt "#32023"
+msgid "Olive"
+msgstr ""
+
+msgctxt "#32024"
+msgid "Salmon"
+msgstr ""
+
+msgctxt "#32025"
+msgid "Which brightness level do you want?"
+msgstr ""
+
+msgctxt "#32026"
+msgid "The brightness of your LEDs has changed."
+msgstr ""
+
+msgctxt "#32027"
+msgid "Do you want to change the brightness again?"
+msgstr ""
+
+msgctxt "#32028"
+msgid "You have successfully set your LEDs! Rebooting now..."
+msgstr ""
+
+msgctxt "#32029"
+msgid "The selection was cancelled. Rebooting now to reset settings..."
+msgstr ""
+
+msgctxt "#32030"
+msgid "The colour of your LEDs has changed."
+msgstr ""
+
+msgctxt "#32031"
+msgid "Do you want to change the colour again?"
+msgstr ""
+
+msgctxt "#32032"
+msgid "Do you want to change the brightness of your LEDs?"
+msgstr ""
+
+msgctxt "#32033"
+msgid "No changes made."
+msgstr ""
+
+msgctxt "#32034"
+msgid "Do you want to change your LED colours?"
+msgstr ""
+
+msgctxt "#32035"
+msgid "Yes"
+msgstr ""
+
+msgctxt "#32036"
+msgid "No"
+msgstr ""
+
+msgctxt "#32037"
+msgid "Deactivate LEDs"
+msgstr ""
+
+msgctxt "#32038"
+msgid "Deactivate Hyperion"
+msgstr ""
+
+msgctxt "#32039"
+msgid "The LEDs are now deactivated."
+msgstr ""
+
+msgctxt "#32040"
+msgid "You have successfully deactivated your LEDs! Rebooting now..."
+msgstr ""
+
+msgctxt "#32041"
+msgid "Hyperion is now deactivated."
+msgstr ""
+
+msgctxt "#32042"
+msgid "Deactivation of Hyperion"
+msgstr ""
+
+msgctxt "#32043"
+msgid "The default status of the LEDs will return, when you switch manually the complete case on and off."
+msgstr ""
+
+msgctxt "#32044"
+msgid "You have successfully deactivated Hyperion! Rebooting now..."
+msgstr ""

@@ -1,0 +1,124 @@
+# Kodi Media Center language file
+# Addon Name: Multimedia Case Configuration
+# Addon id: script.module.MultimediaCase
+# Addon Provider: Joy-it
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: service@joy-it.de\n"
+"POT-Creation-Date: 2020-09-10 \n"
+"Last-Translator: Joy-it\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "#32001"
+msgid "Do you want to activate fan control?"
+msgstr "Möchten Sie die Lüftersteuerung aktivieren?"
+
+msgctxt "#32002"
+msgid "Activate"
+msgstr "Aktivieren"
+
+msgctxt "#32003"
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+msgctxt "#32004"
+msgid "Status of fan control"
+msgstr "Status der Lüftersteuerung"
+
+msgctxt "#32005"
+msgid "The fan control is deactivated."
+msgstr "Die Lüftersteuerung ist deaktiviert."
+
+msgctxt "#32006"
+msgid "The fan control is activated."
+msgstr "Die Lüftersteuerung ist aktiviert."
+
+msgctxt "#32007"
+msgid "Do you want to set a new PowerOff-Button at your remote control?"
+msgstr "Möchten Sie einen neuen PowerOff-Button deklarieren?"
+
+msgctxt "#32008"
+msgid "Yes"
+msgstr "Ja"
+
+msgctxt "#32009"
+msgid "No"
+msgstr "Nein"
+
+msgctxt "#32010"
+msgid "Status of Learning Mode"
+msgstr "Status des Learning Modes"
+
+msgctxt "#32011"
+msgid "Skipped setting."
+msgstr "Einstellung übersprungen."
+
+msgctxt "#32012"
+msgid "Configuration of PowerOff-Button"
+msgstr "Konfiguration des PowerOff-Buttons"
+
+msgctxt "#32013"
+msgid "The Case is now blinking in different colours to mark that it is waiting for an infrared signal. "
+"It will light up in white if it receives a signal. You have to press the selected button 3 times to confirm the selection. "
+"If you should press another button, the case will light up in red and will wait that you press the same button 3 times again. "
+"If the LEDs light in green again, the selection of the PowerOff-Button is made and you can continue with ENTER."
+msgstr "Das Gehäuse blinkt nun in verschiedenen Farben, um zu kennzeichnen, dass das Gehäuse auf das Infrarot-Signal Ihrer Fernbedienung wartet. "
+"Das Gehäuse leuchtet weiß auf, wenn es ein Signal empfängt. Sie müssen sich eine Taste auswählen, welche Sie dreimal hintereinander betätigen um Ihre Auswahl zu bestätigen. "
+"Wenn Sie einen anderen Knopf drücken sollten, als Sie zuvor betätigt haben, wird das Gehäuse rot aufleuchten und Sie müssen erneut dreimal die selbe Taste betätigen. "
+"Wenn das Gehäuse grün aufleuchtet, ist der PowerOff-Button gesetzt und Sie können weiter fortfahren in dem Sie auf ENTER drücken."
+
+msgctxt "#32014"
+msgid "New button is set as PowerOff-Button"
+msgstr "Eine neue Taste ist als PowerOff-Button gesetzt."
+
+msgctxt "#32015"
+msgid "You have successfully deactivated fan control and no new PowerOff-Button was learned."
+msgstr "Sie haben erfolgreich die Lüftersteuerung deaktiviert und kein neuer PowerOff-Button wurde gesetzt."
+
+msgctxt "#32016"
+msgid "You have successfully activated fan control and no new PowerOff-Button was learned."
+msgstr "Sie haben erfolgreich die Lüftersteuerung aktiviert und kein neuer PowerOff-Button wurde gesetzt."
+
+msgctxt "#32017"
+msgid "You have successfully deactivated fan control and a new PowerOff-Button was learned."
+msgstr "Sie haben erfolgreich die Lüftersteuerung deaktiviert und ein neuer PowerOff-Button wurde gesetzt."
+
+msgctxt "#32018"
+msgid "You have successfully activated fan control and a new PowerOff-Button was learned."
+msgstr "Sie haben erfolgreich die Lüftersteuerung aktiviert und ein neuer PowerOff-Button wurde gesetzt."
+
+msgctxt "#32019"
+msgid "You have successfully configured your Multimedia Case! Rebooting now..."
+msgstr "Sie haben erfolgreich Ihr Multimedia Case eingerichtet! Der Raspberry Pi wird nun neugestartet..."
+
+msgctxt "#32020"
+msgid "Cancelled! Configuration aborted!"
+msgstr "Abbruch! Die Konfiguration wurde abgebrochen!"
+
+msgctxt "#32021"
+msgid "More information"
+msgstr "Mehr Informationen"
+
+msgctxt "#32022"
+msgid "Fan control HELP"
+msgstr "Lüftersteuerung HILFE"
+
+msgctxt "#32023"
+msgid "This is a program which observes the temperature of the Raspberry Pi. "
+"It cools the Pi down to 50C if it reaches a temperature of 60C. This can also be adjusted to your wishes in the corresponding code"
+msgstr "Dieses Programm nimmt die Temperatur Ihres Raspberry Pis wahr. Es kühlt den Pi bis zu 50C herunter, "
+"wenn dieser eine Temperatur von 60C überschritten hat. Dies kann auch im dazugehörigen Code angepasst werden."
+
+msgctxt "#32024"
+msgid "PowerOff-Button HELP"
+msgstr "PowerOff-Button HILFE"
+
+msgctxt "#32025"
+msgid "This is can be a button of a remote control to shutdown your Multimedia Case. It can be any button of a infrared remote control of your choice."
+msgstr "Das ist eine Taste auf einer Fernbedienung um das Multimedia Case herunterzufahren. Dies kann eine beliebige Taste auf der Fernbedienung Ihrer Wahl sein."

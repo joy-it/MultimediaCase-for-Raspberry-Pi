@@ -1,0 +1,192 @@
+# Kodi Media Center language file
+# Addon Name: Multimedia Case LED Configuration
+# Addon id: script.module.MCHyperion
+# Addon Provider: Joy-it
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: service@joy-it.de\n"
+"POT-Creation-Date: 2020-09-10 \n"
+"Last-Translator: Joy-it\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "#32001"
+msgid "Which mode do you want to select?"
+msgstr "Welchen Modus möchten Sie auswählen?"
+
+msgctxt "#32002"
+msgid "Static"
+msgstr "Statisch"
+
+msgctxt "#32003"
+msgid "Plasma"
+msgstr "Plasma"
+
+msgctxt "#32004"
+msgid "Candle"
+msgstr "Kerze"
+
+msgctxt "#32005"
+msgid "Rainbow Mood"
+msgstr "Regenbogen"
+
+msgctxt "#32006"
+msgid "Rainbow Swirl"
+msgstr "Regenbogen Wirbel"
+
+msgctxt "#32007"
+msgid "Breath"
+msgstr "Atmen"
+
+msgctxt "#32008"
+msgid "Police"
+msgstr "Polizei"
+
+msgctxt "#32009"
+msgid "Christmas"
+msgstr "Weihnachten"
+
+msgctxt "#32010"
+msgid "Colour Traces"
+msgstr "Farbspuren"
+
+msgctxt "#32011"
+msgid "Which colour do you want to select?"
+msgstr "Welche Farbe wollen Sie auswählen?"
+
+msgctxt "#32012"
+msgid "White"
+msgstr "Weiß"
+
+msgctxt "#32013"
+msgid "Red"
+msgstr "Rot"
+
+msgctxt "#32014"
+msgid "Yellow"
+msgstr "Gelb"
+
+msgctxt "#32015"
+msgid "Pink"
+msgstr "Pink"
+
+msgctxt "#32016"
+msgid "Orange"
+msgstr "Orange"
+
+msgctxt "#32017"
+msgid "Blue"
+msgstr "Blau"
+
+msgctxt "#32018"
+msgid "Green"
+msgstr "Grün"
+
+msgctxt "#32019"
+msgid "Purple"
+msgstr "Lila"
+
+msgctxt "#32020"
+msgid "Turquoise"
+msgstr "Türkis"
+
+msgctxt "#32021"
+msgid "Lavender"
+msgstr "Lavender"
+
+msgctxt "#32022"
+msgid "Cyan"
+msgstr "Cyan"
+
+msgctxt "#32023"
+msgid "Olive"
+msgstr "Olivgrün"
+
+msgctxt "#32024"
+msgid "Salmon"
+msgstr "Lachsfarben"
+
+msgctxt "#32025"
+msgid "Which brightness level do you want?"
+msgstr "Welche Helligkeitsstufe möchten Sie?"
+
+msgctxt "#32026"
+msgid "The brightness of your LEDs has changed."
+msgstr "Die Helligkeit Ihrer LEDs hat sich geändert."
+
+msgctxt "#32027"
+msgid "Do you want to change the brightness again?"
+msgstr "Möchten Sie die Helligkeit erneut ändern?"
+
+msgctxt "#32028"
+msgid "You have successfully set your LEDs! Rebooting now..."
+msgstr "Sie haben erfolgreich Ihre LEDs eingestellt! Der Raspberry Pi startet jetzt neu..."
+
+msgctxt "#32029"
+msgid "The selection was cancelled. Rebooting now to reset settings..."
+msgstr "Das Addon wurde beendet. Neustart um Einstellungen zurückzusetzen..."
+
+msgctxt "#32030"
+msgid "The colour of your LEDs has changed."
+msgstr "Die Farbe der LEDs hat sich geändert."
+
+msgctxt "#32031"
+msgid "Do you want to change the colour again?"
+msgstr "Möchten Sie die Farbe erneut ändern?"
+
+msgctxt "#32032"
+msgid "Do you want to change the brightness of your LEDs?"
+msgstr "Möchten Sie die Helligkeit der LEDs abändern?"
+
+msgctxt "#32033"
+msgid "No changes made."
+msgstr "Keine Änderungen vorgenommen."
+
+msgctxt "#32034"
+msgid "Do you want to change your LED colours?"
+msgstr "Möchten Sie die Farbe Ihrer LEDs einstellen?"
+
+msgctxt "#32035"
+msgid "Yes"
+msgstr "Ja"
+
+msgctxt "#32036"
+msgid "No"
+msgstr "Nein"
+
+msgctxt "#32037"
+msgid "Deactivate LEDs"
+msgstr "LEDs deaktivieren"
+
+msgctxt "#32038"
+msgid "Deactivate Hyperion"
+msgstr "Hyperion deaktivieren"
+
+msgctxt "#32039"
+msgid "The LEDs are now deactivated."
+msgstr "Die LEDs sind nun deaktiviert."
+
+msgctxt "#32040"
+msgid "You have successfully deactivated your LEDs! Rebooting now..."
+msgstr "Sie haben erfolgreich die LEDs deaktiviert! Der Raspberry Pi startet jetzt neu..."
+
+msgctxt "#32041"
+msgid "Hyperion is now deactivated."
+msgstr "Hyperion ist nun deaktiviert."
+
+msgctxt "#32042"
+msgid "Deactivation of Hyperion"
+msgstr "Deaktivierung von Hyperion"
+
+msgctxt "#32043"
+msgid "The default status of the LEDs will return, when you switch manually the complete case on and off."
+msgstr "Die Ursprungseinstellungen der LEDs werden zurückkehren, wenn das Gehäuse einmal manuell aus- und angeschaltet wird."
+
+msgctxt "#32044"
+msgid "You have successfully deactivated Hyperion! Rebooting now..."
+msgstr "Sie haben erfolgreich Hyperion deaktiviert! Der Raspberry Pi startet jetzt neu..."
