@@ -27,7 +27,11 @@
  Infrared-Multiprotocoll-Decoder (IRMP - licensed under GNU General Public License v3.0) to recognize IR-remote signals
  and process these. The WS2812B LEDs can be controlled with the STM32 controller or with the Raspberry Pi. The Case Button
  is handled by an interrupt routine.
- The STM32 can power on and shutdown the Raspberry Pi. The needed communication for this is done via the serial interface.
+ The STM32 is mainly used to control the power status of the connected Raspberry Pi. It is able to power the Raspberry Pi via
+ the 5 V pins and can send a shutdown-command via serial (which is processed via an addon). After shutdown of the Raspberry Pi
+ the STM32 cuts the 5 V supply.
+ During the different routines (starting, shutdown, learning) the STM32 takes the control of the 4 WS2812B and displays
+ the actual active routine with the help of colors.
 
  */
 

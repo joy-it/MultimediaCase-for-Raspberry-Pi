@@ -20,7 +20,7 @@ status_Fan = False
 status_LearningMode = False
 
 os.system("rm /storage/.kodi/temp/functions.txt && touch /storage/.kodi/temp/functions.txt")
-flags = ["python /storage/.kodi/addons/script.module.MultimediaCase/lib/fan.py &\n", "python /storage/.kodi/addons/script.module.MultimediaCase/lib/shutdown-function.py &\n"]
+flags = ["python /storage/.kodi/addons/script.module.MultimediaCase/lib/fan.py &\n", "python /storage/.kodi/addons/script.module.MultimediaCase/lib/shutdown-function.py &"]
 with open("/storage/.config/autostart.sh","r") as log, open("/storage/.kodi/temp/functions.txt","w") as file:
     for line in log:
         if not any(flag in line for flag in flags):

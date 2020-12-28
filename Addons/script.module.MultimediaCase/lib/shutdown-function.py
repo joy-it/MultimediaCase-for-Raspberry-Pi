@@ -16,4 +16,4 @@ while 1:
  y = x.decode(encoding='UTF-8',errors='strict')
  if y==('xxxShutdownRaspberryPixxx\n'):
   print ("Raspberry Pi Shutdown")
-  os.system("sudo shutdown -h now")
+  os.system("shutdown -h now")
