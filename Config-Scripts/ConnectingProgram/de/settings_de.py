@@ -55,11 +55,12 @@ def learningMode():
             xbmcgui.Dialog().ok("Status des Learning Modes","Einstellung übersprungen.")
         if learning_Mode == 0:
             ser = serial.Serial(port='/dev/serial0', baudrate = 38400, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS, timeout=1)
-            counter=0
 
             ser.write(str.encode('\x0D'))
             ser.write(str.encode('X04'))
             ser.write(str.encode('\x0D'))
+            time.sleep(.1)
+            ser.write(str.encode('000\r'))
             xbmcgui.Dialog().textviewer("Konfiguration der PowerOff-Taste", "Das Gehäuse blinkt nun in verschiedenen Farben, um zu kennzeichnen, dass das Gehäuse auf das Infrarot-Signal Ihrer Fernbedienung wartet. Das Gehäuse leuchtet weiß auf, wenn es ein Signal empfängt. Sie müssen sich eine Taste auswählen, welche Sie dreimal hintereinander betätigen um Ihre Auswahl zu bestätigen. Wenn Sie einen anderen Knopf drücken sollten, als Sie zuvor betätigt haben, wird das Gehäuse rot aufleuchten und Sie müssen erneut dreimal die selbe Taste betätigen. Wenn das Gehäuse grün aufleuchtet, ist der PowerOff-Button gesetzt und Sie können weiter fortfahren in dem Sie auf ENTER drücken.")
             xbmcgui.Dialog().ok("Status des Learning Modes","Neue Taste als PowerOff-Taste gesetzt.")
             status_LearningMode = True

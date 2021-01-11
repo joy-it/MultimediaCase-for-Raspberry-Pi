@@ -19,6 +19,8 @@ Cancel = False
 status_Fan = False
 status_LearningMode = False
 
+
+os.system("touch /storage/.config/autostart.sh")
 os.system("rm /storage/.kodi/temp/functions.txt && touch /storage/.kodi/temp/functions.txt")
 flags = ["python /storage/.kodi/addons/script.module.MultimediaCase/lib/fan.py &\n", "python /storage/.kodi/addons/script.module.MultimediaCase/lib/shutdown-function.py &"]
 with open("/storage/.config/autostart.sh","r") as log, open("/storage/.kodi/temp/functions.txt","w") as file:
@@ -56,11 +58,12 @@ def learningMode():
             xbmcgui.Dialog().ok(_localize_(32010),_localize_(32011))
         if learning_Mode == 0:
             ser = serial.Serial(port='/dev/serial0', baudrate = 38400, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS, timeout=1)
-            counter=0
 
             ser.write(str.encode('\x0D'))
             ser.write(str.encode('X04'))
             ser.write(str.encode('\x0D'))
+            time.sleep(.1)
+            ser.write(str.encode('000\r'))
             xbmcgui.Dialog().textviewer(_localize_(32012),_localize_(32013))
             xbmcgui.Dialog().ok(_localize_(32010),_localize_(32014))
             status_LearningMode = True

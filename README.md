@@ -24,8 +24,9 @@ The starting-program folder keeps the files of our setup routine. This routine i
 ## Download the images
 
 64GB Image: [Download](https://joyiteurope-my.sharepoint.com/:u:/g/personal/onedrive_joyiteurope_onmicrosoft_com/EX_NeiiZkCtBg7PNMkzbpgwBIQwNJXln7WyuMJqDdQwtEA?e=zAvC8Q)
+32GB Image: [Download](https://joyiteurope-my.sharepoint.com/:u:/g/personal/onedrive_joyiteurope_onmicrosoft_com/EWgB0fqF5J5OvBvpzs6oe_kB3oDqyoTp9xweV5ClyKyMvw?e=G4fSnk)
+16GB Image: [Download](https://joyiteurope-my.sharepoint.com/:u:/g/personal/onedrive_joyiteurope_onmicrosoft_com/EeiXyl3F1wlLkIXmxS_ccZwBVpN9eTzLnmOxJ8Ehb97xzA?e=Y6skRa)
 
-32 GB and 16 GB coming soon
 
 If there are questions or something is unclear, please feel free
 to contact us via E-Mail: service@joy-it.net

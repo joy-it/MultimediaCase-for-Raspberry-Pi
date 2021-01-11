@@ -54,11 +54,12 @@ def learningMode():
             xbmcgui.Dialog().ok("Status of Learning Mode","Skipped setting.")
         if learning_Mode == 0:
             ser = serial.Serial(port='/dev/serial0', baudrate = 38400, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS, timeout=1)
-            counter=0
 
             ser.write(str.encode('\x0D'))
             ser.write(str.encode('X04'))
             ser.write(str.encode('\x0D'))
+            time.sleep(.1)
+            ser.write(str.encode('000\r'))
             xbmcgui.Dialog().textviewer("Configuration of PowerOff-Button","The Case is now blinking in different colours to mark that it is waiting for an infrared signal. It will light up in white if it receives a signal. You have to press the selected button 3 times to confirm the selection. If you should press another button, the case will light up in red and will wait that you press the same button 3 times again. If the LEDs light in green again, the selection of the PowerOff-Button is made and you can continue with ENTER.")
             xbmcgui.Dialog().ok("Status of Learning Mode","New button is set as PowerOff-Button.")
             status_LearningMode = True
