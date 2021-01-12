@@ -14,6 +14,7 @@ addonname   = addon.getAddonInfo('name')
 monitor = xbmc.Monitor()
 Cancel = False
 loop = False
+os.system("touch /storage/.config/autostart.sh")
 os.system("rm /storage/.kodi/temp/led.txt && touch /storage/.kodi/temp/led.txt")
 flags = ["/storage/hyperion/bin/hyperion-remote","systemctl start hyperion.service"]
 with open("/storage/.config/autostart.sh","r") as log, open("/storage/.kodi/temp/led.txt","w") as file:
