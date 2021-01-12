@@ -17,9 +17,13 @@ Please refer to the additional comments in the corresponding sections for furthe
 These are the addons which we use for the functionality of the MultimediaCase.
 
 
-## Starting Program
+## Config-Scripts/ConnectingProgram
 
-The starting-program folder keeps the files of our setup routine. This routine is used for the intitial setup of an image.
+The Config-Scripts/ConnectingProgram folder keeps the files of our setup routine. This routine is used for the intitial setup of an image.
+
+## Firmware
+
+Here you can find the compiled firmware binary files.
 
 ## Download the images
 
