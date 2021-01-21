@@ -25,11 +25,17 @@ The Config-Scripts/ConnectingProgram folder keeps the files of our setup routine
 
 Here you can find the compiled firmware binary files.
 
+## RaspberryPiOS Scripts
+
+These scripts are edited for the use with Raspberry Pi OS.
+
+## Source
+
+This Folder contains the source and project files of the STM32 firmware.
+
 ## Download the images
 
-64GB Image: [Download](https://joyiteurope-my.sharepoint.com/:u:/g/personal/onedrive_joyiteurope_onmicrosoft_com/EX_NeiiZkCtBg7PNMkzbpgwBIQwNJXln7WyuMJqDdQwtEA?e=zAvC8Q)
-32GB Image: [Download](https://joyiteurope-my.sharepoint.com/:u:/g/personal/onedrive_joyiteurope_onmicrosoft_com/EWgB0fqF5J5OvBvpzs6oe_kB3oDqyoTp9xweV5ClyKyMvw?e=G4fSnk)
-16GB Image: [Download](https://joyiteurope-my.sharepoint.com/:u:/g/personal/onedrive_joyiteurope_onmicrosoft_com/EeiXyl3F1wlLkIXmxS_ccZwBVpN9eTzLnmOxJ8Ehb97xzA?e=Y6skRa)
+auto expanding LibreELEC image (2021-01-18): [Download](https://joyiteurope-my.sharepoint.com/:u:/g/personal/onedrive_joyiteurope_onmicrosoft_com/EQEVchu2KhNEsUVggU3ezTgBnFJMj6NfAHYnbeee-102Jg?e=phiWLe)
 
 
 If there are questions or something is unclear, please feel free
