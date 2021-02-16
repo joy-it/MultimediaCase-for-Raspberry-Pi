@@ -1,0 +1,13 @@
+main.c:747:13:WS2812_ChangeColor	8	static
+main.c:363:6:SystemClock_Config	96	static
+main.c:717:6:RPi_Power_Up	8	static
+main.c:724:6:RPi_Power_Down	8	static
+main.c:731:6:RGB_RPi	8	static
+main.c:739:6:RGB_MCU	8	static
+main.c:789:6:flashValue	8	static
+main.c:758:6:flashConfig	32	static
+main.c:804:6:learningmode	32	static
+main.c:127:5:main	72	static
+main.c:887:6:setButtonPressed	0	static
+main.c:892:6:setTimerReset	8	static
+main.c:911:6:Error_Handler	0	static

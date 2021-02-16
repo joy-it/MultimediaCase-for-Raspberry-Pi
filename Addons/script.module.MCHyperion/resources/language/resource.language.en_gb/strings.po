@@ -160,33 +160,45 @@ msgid "No"
 msgstr ""
 
 msgctxt "#32037"
-msgid "Deactivate LEDs"
+msgid "Change colour mode"
 msgstr ""
 
 msgctxt "#32038"
 msgid "Deactivate Hyperion"
 msgstr ""
 
-msgctxt "#32039"
-msgid "The LEDs are now deactivated."
-msgstr ""
-
-msgctxt "#32040"
-msgid "You have successfully deactivated your LEDs! Rebooting now..."
-msgstr ""
-
 msgctxt "#32041"
 msgid "Hyperion is now deactivated."
 msgstr ""
 
-msgctxt "#32042"
-msgid "Deactivation of Hyperion"
-msgstr ""
-
-msgctxt "#32043"
-msgid "The default status of the LEDs will return, when you switch manually the complete case on and off."
-msgstr ""
-
 msgctxt "#32044"
 msgid "You have successfully deactivated Hyperion! Rebooting now..."
+msgstr ""
+
+msgctxt "#32045"
+msgid "Standard colour mode"
+msgstr ""
+
+msgctxt "#32046"
+msgid "Only pulsating"
+msgstr ""
+
+msgctxt "#32047"
+msgid "Only confirming"
+msgstr ""
+
+msgctxt "#32048"
+msgid "Your LEDs will now light up in standard colour mode. (When Hyperion is not active.)"
+msgstr ""
+
+msgctxt "#32049"
+msgid "Your LEDs will now pulsate only during start and shutdown."
+msgstr ""
+
+msgctxt "#32050"
+msgid "Your LEDs now only briefly confirm startup and shutdown."
+msgstr ""
+
+msgctxt "#32051"
+msgid "You changed the colour mode."
 msgstr ""

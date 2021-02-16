@@ -1,12 +1,12 @@
-# MultimediaCase for Raspberry Pi - by Joy-IT
-# Addon published under MIT-License
-
-
+import sys
+sys.path.append('/storage/.kodi/addons/virtual.rpi-tools/lib')
+sys.path.append('/storage/.kodi/addons/script.module.pyserial/lib')
 import xbmcaddon
 import xbmcgui
 import subprocess
 import time
 import os
+import serial
 
 addon       = xbmcaddon.Addon()
 _localize_ = addon.getLocalizedString
@@ -14,6 +14,8 @@ addonname   = addon.getAddonInfo('name')
 monitor = xbmc.Monitor()
 Cancel = False
 loop = False
+boardMode = False
+ser = serial.Serial(port='/dev/serial0', baudrate = 38400, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS, timeout=1)
 os.system("touch /storage/.config/autostart.sh")
 os.system("rm /storage/.kodi/temp/led.txt && touch /storage/.kodi/temp/led.txt")
 flags = ["/storage/hyperion/bin/hyperion-remote","systemctl start hyperion.service"]
@@ -160,36 +162,73 @@ def start():
             os.system("rm /storage/.kodi/temp/led.txt")
             os.system("reboot")
 
+def startpanel():
+    global ser
+    global time
+    global boardMode
+    while not monitor.abortRequested():
+        beginn = xbmcgui.Dialog().select(_localize_(32034), [_localize_(32035), _localize_(32036),_localize_(32037),_localize_(32038)])
+        if beginn == -1:
+            if boardMode == True:
+                xbmcgui.Dialog().ok(addonname,_localize_(32051))
+                os.system("rm /storage/.kodi/temp/led.txt")
+            else:
+                xbmcgui.Dialog().ok(addonname,_localize_(32033))
+                os.system("rm /storage/.kodi/temp/led.txt")
+        if beginn == 1:
+            if boardMode == True:
+                xbmcgui.Dialog().ok(addonname,_localize_(32051))
+                os.system("rm /storage/.kodi/temp/led.txt")
+            else:
+                xbmcgui.Dialog().ok(addonname,_localize_(32033))
+                os.system("rm /storage/.kodi/temp/led.txt")
+        if beginn == 2:
+            boardMode = True
+            mode = xbmcgui.Dialog().select(_localize_(32037), [_localize_(32045), _localize_(32046),_localize_(32047)])
+            if mode == -1:
+                boardMode = False
+                startpanel()
+            if mode == 0:
+                ser.write(str.encode('\x0D'))
+                ser.write(str.encode('LM0'))    # Mode 0
+                ser.write(str.encode('\x0D'))
 
-while not monitor.abortRequested():
-    beginn = xbmcgui.Dialog().select(_localize_(32034), [_localize_(32035), _localize_(32036),_localize_(32037),_localize_(32038)])
-    if beginn == -1:
-        xbmcgui.Dialog().ok(addonname,_localize_(32033))
-        os.system("rm /storage/.kodi/temp/led.txt")
-    if beginn == 1:
-        xbmcgui.Dialog().ok(addonname,_localize_(32033))
-        os.system("rm /storage/.kodi/temp/led.txt")
-    if beginn == 2:
-        os.system("systemctl start hyperion.service")
-        os.system("/storage/hyperion/bin/hyperion-remote -c 000000")
-        xbmcgui.Dialog().ok(addonname, _localize_(32039))
-        os.system("rm /storage/.config/autostart.sh && touch /storage/.config/autostart.sh")
-        os.system("cp /storage/.kodi/temp/led.txt /storage/.config/autostart.sh")
-        with open("/storage/.config/autostart.sh", "a") as log:
-            log.write("systemctl start hyperion.service\n")
-            log.write("/storage/hyperion/bin/hyperion-remote -c 000000\n")
-        os.system("rm /storage/.kodi/temp/led.txt")
-        xbmcgui.Dialog().ok(addonname,_localize_(32040))
-        os.system ("reboot")
-    if beginn == 3:
-        os.system("systemctl stop hyperion.service")
-        xbmcgui.Dialog().ok(addonname,_localize_(32041))
-        os.system("rm /storage/.config/autostart.sh && touch /storage/.config/autostart.sh")
-        os.system("cp /storage/.kodi/temp/led.txt /storage/.config/autostart.sh")
-        os.system("rm /storage/.kodi/temp/led.txt")
-        xbmcgui.Dialog().ok(_localize_(32042),_localize_(32043))
-        xbmcgui.Dialog().ok(addonname, _localize_(32044))
-        os.system ("reboot")
-    if beginn == 0:
-        start()
-    break
+                time.sleep(.1)
+                #ser.write(str.encode('000\r')
+                time.sleep(.1)
+                xbmcgui.Dialog().ok(addonname,_localize_(32048))
+                startpanel()
+
+            if mode == 1:
+                ser.write(str.encode('\x0D'))
+                ser.write(str.encode('LM1'))    # Mode 1
+                ser.write(str.encode('\x0D'))
+
+                time.sleep(.1)
+                #ser.write(str.encode('000\r')
+                xbmcgui.Dialog().ok(addonname,_localize_(32049))
+                startpanel()
+
+            if mode == 2:
+                ser.write(str.encode('\x0D'))
+                ser.write(str.encode('LM2'))    # Mode 2
+                ser.write(str.encode('\x0D'))
+
+                time.sleep(.1)
+                #ser.write(str.encode('000\r')
+                xbmcgui.Dialog().ok(addonname,_localize_(32050))
+                startpanel()
+
+        if beginn == 3:
+            os.system("systemctl stop hyperion.service")
+            xbmcgui.Dialog().ok(addonname,_localize_(32041))
+            os.system("rm /storage/.config/autostart.sh && touch /storage/.config/autostart.sh")
+            os.system("cp /storage/.kodi/temp/led.txt /storage/.config/autostart.sh")
+            os.system("rm /storage/.kodi/temp/led.txt")
+            xbmcgui.Dialog().ok(addonname, _localize_(32044))
+            os.system ("reboot")
+        if beginn == 0:
+            start()
+        break
+
+startpanel()
