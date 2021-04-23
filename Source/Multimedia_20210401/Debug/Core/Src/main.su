@@ -1,0 +1,10 @@
+main.c:839:13:activateIR	8	static
+main.c:766:13:RGB_MCU	8	static
+main.c:758:13:RGB_RPi	8	static
+main.c:774:13:WS2812_ChangeColor	8	static
+main.c:785:13:flashConfig	32	static
+main.c:390:6:SystemClock_Config	96	static
+main.c:125:5:main	104	static
+main.c:933:6:setButtonPressed	0	static
+main.c:938:6:setTimerReset	8	static
+main.c:955:6:Error_Handler	0	static

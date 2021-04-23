@@ -176,19 +176,19 @@ msgid "You have successfully deactivated Hyperion! Rebooting now..."
 msgstr "Sie haben erfolgreich Hyperion deaktiviert! Der Raspberry Pi startet jetzt neu..."
 
 msgctxt "#32045"
-msgid "Standard colour mode"
+msgid "Default colour mode"
 msgstr "Standard Farbmodus"
 
 msgctxt "#32046"
 msgid "Only pulsating"
-msgstr "Nur Pulsieren"
+msgstr "Nur pulsieren"
 
 msgctxt "#32047"
 msgid "Only confirming"
 msgstr "Nur quittieren"
 
 msgctxt "#32048"
-msgid "Your LEDs will now light up in standard colour mode. (When Hyperion is not active.)"
+msgid "Your LEDs will now light up in default colour mode. (When Hyperion is not active.)"
 msgstr "Ihre LEDs leuchten nun im Standard-Farbmodus. (Wenn Hyperion nicht aktiv ist.)"
 
 msgctxt "#32049"

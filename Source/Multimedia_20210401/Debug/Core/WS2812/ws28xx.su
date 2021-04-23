@@ -1,0 +1,6 @@
+ws28xx.c:17:6:ws28xx_fill_a_bit	12	static
+ws28xx.c:29:6:ws28xx_set_buffer	24	static
+ws28xx.c:50:6:ws28xx_Put_Pixels	40	static
+ws28xx.c:69:6:ws28xx_Update	8	static
+ws28xx.c:79:6:ws28xx_SetColor	8	static
+ws28xx.c:130:6:ws28xx_fade	24	static

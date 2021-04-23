@@ -194,8 +194,6 @@ def startpanel():
                 ser.write(str.encode('\x0D'))
 
                 time.sleep(.1)
-                #ser.write(str.encode('000\r')
-                time.sleep(.1)
                 xbmcgui.Dialog().ok(addonname,_localize_(32048))
                 startpanel()
 
@@ -205,7 +203,6 @@ def startpanel():
                 ser.write(str.encode('\x0D'))
 
                 time.sleep(.1)
-                #ser.write(str.encode('000\r')
                 xbmcgui.Dialog().ok(addonname,_localize_(32049))
                 startpanel()
 
@@ -215,7 +212,6 @@ def startpanel():
                 ser.write(str.encode('\x0D'))
 
                 time.sleep(.1)
-                #ser.write(str.encode('000\r')
                 xbmcgui.Dialog().ok(addonname,_localize_(32050))
                 startpanel()
 
@@ -225,6 +221,29 @@ def startpanel():
             os.system("rm /storage/.config/autostart.sh && touch /storage/.config/autostart.sh")
             os.system("cp /storage/.kodi/temp/led.txt /storage/.config/autostart.sh")
             os.system("rm /storage/.kodi/temp/led.txt")
+
+            time.sleep(1)
+            ser.write(str.encode('\x0D'))
+            ser.write(str.encode('LM3'))
+            ser.write(str.encode('\x0D'))
+
+            x=ser.readline()
+            y = x.decode(encoding='UTF-8',errors='strict')
+
+            if y == ('0\n'):
+                ledMode = 'LM0'
+            elif y == ('1\n'):
+                ledMode = 'LM1'
+            elif y == ('2\n'):
+                ledMode = 'LM2'
+
+            time.sleep(1)
+
+            ser.write(str.encode('\x0D'))
+            ser.write(str.encode(ledMode))
+            ser.write(str.encode('\x0D'))
+
+
             xbmcgui.Dialog().ok(addonname, _localize_(32044))
             os.system ("reboot")
         if beginn == 0:

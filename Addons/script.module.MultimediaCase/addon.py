@@ -28,7 +28,7 @@ with open("/storage/.config/autostart.sh","r") as log, open("/storage/.kodi/temp
         if not any(flag in line for flag in flags):
             file.write(line)
 with open("/storage/.kodi/temp/functions.txt", "a") as log:
-            log.write("python /storage/.kodi/addons/script.module.MultimediaCase/lib/shutdown-function.py &\n")
+    log.write("python /storage/.kodi/addons/script.module.MultimediaCase/lib/shutdown-function.py &\n")
 
 def fanControll():
     global status_Fan
@@ -39,10 +39,10 @@ def fanControll():
     if fan == 1:
         xbmcgui.Dialog().ok(_localize_(32004),_localize_(32005))
     if fan == 0:
-		with open("/storage/.kodi/temp/functions.txt", "a") as log:
-			log.write("python /storage/.kodi/addons/script.module.MultimediaCase/lib/fan.py &\n")
-		xbmcgui.Dialog().ok(_localize_(32004),_localize_(32006))
-		status_Fan = True
+        with open("/storage/.kodi/temp/functions.txt", "a") as log:
+            log.write("python /storage/.kodi/addons/script.module.MultimediaCase/lib/fan.py &\n")
+        xbmcgui.Dialog().ok(_localize_(32004),_localize_(32006))
+        status_Fan = True
     if fan == 2:
         xbmcgui.Dialog().ok(_localize_(32022),_localize_(32023))
         fanControll()
@@ -62,8 +62,7 @@ def learningMode():
             ser.write(str.encode('\x0D'))
             ser.write(str.encode('X04'))
             ser.write(str.encode('\x0D'))
-            time.sleep(.1)
-            ser.write(str.encode('000\r'))
+            
             xbmcgui.Dialog().textviewer(_localize_(32012),_localize_(32013))
             xbmcgui.Dialog().ok(_localize_(32010),_localize_(32014))
             status_LearningMode = True
