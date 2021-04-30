@@ -19,7 +19,7 @@ These are the addons which we use for the functionality of the MultimediaCase.
 
 ## Config-Scripts/service.autoexec
 
-The Config-Scripts/service.autoexec folder keeps the files of our setup routine. This routine is used for the intitial setup of an image.
+The Config-Scripts/service.autoexec folder keeps the files of our setup routine. This routine is used for the initial setup of an image.
 
 ## Firmware
 
@@ -46,7 +46,7 @@ RemoteControl: [Download](https://joy-it.net/public/script.remote.config.zip)
 
 auto expanding LibreELEC image (2021-01-18): [Download](https://joyiteurope-my.sharepoint.com/:u:/g/personal/onedrive_joyiteurope_onmicrosoft_com/EQEVchu2KhNEsUVggU3ezTgBnFJMj6NfAHYnbeee-102Jg?e=phiWLe)
 
-auto expanding LibreELEC 10.BETA image (2021-04-23): [Download](https://joyiteurope-my.sharepoint.com/:u:/g/personal/onedrive_joyiteurope_onmicrosoft_com/Eds0bwEG4Y9Hhxv23gmpEYIB8G4a9Mm-bEfDwDGMfCOWzA?e=qsyWuW)
+auto expanding LibreELEC 10.BETA image (2021-04-30): [Download](https://joyiteurope-my.sharepoint.com/:u:/g/personal/onedrive_joyiteurope_onmicrosoft_com/EZUtswKKP5lBjePhANahQukBprppscqCYL2UqX8rh_5NIw?e=ggeKJU)
 
 
 
